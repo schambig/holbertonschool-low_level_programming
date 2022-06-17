@@ -6,9 +6,8 @@
 
 void rev_string(char *s)
 {
-	int mid, i;
-	char *str, tmp;
-	int len = 0;
+	int mid, i, len = 0;
+	char tmp;
 
 	while (*s != '\0')
 	{
@@ -16,14 +15,13 @@ void rev_string(char *s)
 		s++;
 	}
 
-	str = s; /*give str the value of s, str=s-1 also works*/
 	s = s - len; /*returning s to the begining of the string*/
 	mid = len / 2;
 
 	for (i = 0; i < mid; i++)
 	{
-		tmp = *(s + i);
-		*(s + i) = *(str - i - 1); /*just *(str-i) in case we use str=s-1*/
-		*(str - i - 1) = tmp;
+		tmp = s[i];
+		s[i] = s[len - i - 1]; /*(len-i-1) gives us the corresponding char at the..*/
+		s[len - i - 1] = tmp; /*..end of the string, -1 cos the 0-indexed string*/
 	}
 }
