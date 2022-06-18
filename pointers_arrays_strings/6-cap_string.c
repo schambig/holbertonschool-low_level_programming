@@ -7,7 +7,7 @@
  * space( ): 32,	 tabulation(\t): 9,	new line(\n): 10,	comma(,): 44,
  * semicolon(;): 59,	 dot(.): 46,		exclamation mark(!): 33,
  * question mark(?): 63, double quote("): 34,	parenthesis((): 40,
- * parenthesis()): 41,	 curly braces({): 123,	curly braces({): 125.
+ * parenthesis()): 41,	 curly braces({): 123,	curly braces(}): 125.
  */
 
 char *cap_string(char *s)
