@@ -1,4 +1,5 @@
 #include "main.h"
+#define NULL = '\0';
 /**
  * _strchr - Locates a character in a string
  * @s: The string to check
@@ -20,5 +21,5 @@ char *_strchr(char *s, char c)
 	{
 		return (&s[i]);
 	}
-	return ('\0');
+	return (NULL);
 }
