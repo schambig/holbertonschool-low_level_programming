@@ -24,7 +24,7 @@ int is_prime_number(int n)
 
 int get_prime(int n, int p)
 {
-	if (n == p) /*Case for number 2*/
+	if (n == p) /*Check if n is prime*/
 		return (1);
 	else if (n % p == 0) /*Checks if n is divisible by p*/
 		return (0);
