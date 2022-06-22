@@ -9,11 +9,9 @@
 
 int main(int argc, char *argv[])
 {
-	int count = 0;
+	/*int argc __attribute__((unused)) in the parameter list also works*/
+	(void)argc;
 
-	for (; count < argc; count++)
-	{
-		printf("%s\n", argv[count]);
-	}
+	printf("%s\n", argv[0]);
 	return (0);
 }
