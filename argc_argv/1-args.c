@@ -12,6 +12,6 @@ int main(int argc, char *argv[])
 	/*char *argv[] __attribute__((unused)) in the parameter list also works*/
 	(void)argv;
 
-	printf("%d\n", argc);
+	printf("%d\n", argc - 1);
 	return (0);
 }
