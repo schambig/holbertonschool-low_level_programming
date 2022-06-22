@@ -1,7 +1,6 @@
 #include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
-#include <ctype.h>
 /**
  * main - Adds positive numbers
  * @argc: The size of the argv array
@@ -11,20 +10,23 @@
 
 int main(int argc, char *argv[])
 {
-	int i, sum = 0;
+	int row, col, sum = 0;
 
 	if (argc == 1)
 		printf("0\n");
 	else
 	{
-		for (i = 1; i < argc; i++)
+		for (row = 1; row < argc; row++)
 		{
-			sum += atoi(argv[i]);
-			if (!isdigit(atoi(argv[i])))
+			for (col = 0; argv[row][col] != '\0'; col++)
 			{
-				printf("Error\n");
-				return (1);
+				if (argv[row][col] < 48 || argv[row][col] > 57)
+				{
+					printf("Error\n");
+					return (1);
+				}
 			}
+			sum += atoi(argv[row]);
 		}
 		printf("%d\n", sum);
 	}
