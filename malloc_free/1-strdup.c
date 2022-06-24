@@ -3,28 +3,29 @@
 #include "main.h"
 /**
  * _strdup - Copy a given string and returns a pointer to its address
- * @str: The string to copy
+ * @str: The pointer to the string to copy
  * Return: A pointer to the duplicate string, or NULL if it fails
  */
 
 char *_strdup(char *str)
 {
 	char *s;
-	unsigned int i, j, len = strlen(str);
-
+	unsigned int i, len;
+	
+	if (str == NULL)
+	{
+		return (NULL);
+	}
+	len = strlen(str);
 	s = malloc(sizeof(char) * (len + 1));
 	if (s == NULL)
 	{
 		return (NULL);
 	}
-	for (i = 0; i < len; )
+	for (i = 0; i <= len; i++)
 	{
-		for (j = 0; j < len; j++)
-		{
-			s[i] = str[j];
-			i++;
-		}
-		s[i] = '\0';
+		s[i] = str[i];
 	}
 	return (s);
 }
+
