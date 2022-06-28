@@ -1,8 +1,7 @@
 #include <stdlib.h>
-#include <string.h>
 #include "main.h"
 /**
- * array_range - Creates an array of integers
+ * array_range - Create an array of integers
  * @min: The minimum value to be accounted (included)
  * @max: The maximum value to be accounted (included)
  * Return: A pointer to the allocated memory,
@@ -18,10 +17,10 @@ int *array_range(int min, int max)
 	if (min > max)
 		return (NULL);
 
-	p = malloc(sizeof(*p) * (max - min));
+	p = malloc(sizeof(*p) * ((max - min) + 1));
 	if (p == NULL)
 		return (NULL);
-	for (i = min; i < max; i++)
+	for (i = min; i < ((max - min) + 1); i++)
 		p[i] = i;
 
 	return (p);
