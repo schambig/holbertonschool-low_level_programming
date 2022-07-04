@@ -10,7 +10,7 @@
 void print_name(char *name, void (*f)(char *))
 /* f is a callback function to be called by print_name */
 {
-	if (f == NULL)
-		return;
-	f(name);
+	/* Checking if f and name exist */
+	if (f && name)
+		f(name);
 }
