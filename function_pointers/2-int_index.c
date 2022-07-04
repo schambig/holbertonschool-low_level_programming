@@ -15,14 +15,19 @@ int int_index(int *array, int size, int (*cmp)(int))
 {
 	int i = 0;
 
-	if (size <= 0)
-		return (-1);
-
+	/* Checking if array and cmp exist */
 	if (array && cmp)
 	{
+		if (size <= 0)
+			return (-1);
+		/* Iterate inside the array */
 		for (i = 0; i < size; i++)
-			cmp(array[i]);
-		return (i);
+		{
+			/* if the condition is true return the index */
+			if (cmp(array[i]))
+				return (i);
+		}
 	}
+	/* If no element matches, return -1 */
 	return (-1);
 }
