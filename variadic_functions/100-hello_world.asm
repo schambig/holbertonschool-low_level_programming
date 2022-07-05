@@ -13,7 +13,7 @@ main:
 	mov rax, 1		; use the write syscall
 	mov rdi, 1		; use stdout as the file descriptor
 	mov rsi, message	; address of string to output
-	mov edx, 13		; number of bytes
+	mov rdx, 13		; number of bytes
 	syscall			; invoke the write syscall
 
 	; time to exit
