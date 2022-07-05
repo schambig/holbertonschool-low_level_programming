@@ -1,0 +1,4 @@
+#male file - first makefile ever
+
+all: #target name
+	gcc main.c school.c -o school 
