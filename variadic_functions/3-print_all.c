@@ -10,43 +10,41 @@
 void print_all(const char * const format, ...)
 {
 	int i = 0, exist = 0;
-	char *str = NULL;
+	char *str_s = NULL;
 	va_list args;
 
-	va_start(args, format);
-	while (!format)
+	while (format && format[i])
 	{
-		printf("\n");
-		return;
-	}
-	i = 0;
-	while (format[i])
-	{
-		exist = 1;
-		switch (format[i++])
+		va_start(args, format);
+		i = 0;
+		while (format[i])
 		{
-			case 'c':
-				printf("%c", va_arg(args, int));
-				break;
-			case 'i':
-				printf("%d", va_arg(args, int));
-				break;
-			case 'f':
-				printf("%f", va_arg(args, double));
-				break;
-			case 's':
-				str = va_arg(args, char *);
-				if (str == NULL)
-					str = "(nil)";
-				printf("%s", str);
-				break;
-			default:
-				exist = 0;
-				break;
+			exist = 1;
+			switch (format[i++])
+			{
+				case 'c':
+					printf("%c", va_arg(args, int));
+					break;
+				case 'i':
+					printf("%d", va_arg(args, int));
+					break;
+				case 'f':
+					printf("%f", va_arg(args, double));
+					break;
+				case 's':
+					str_s = va_arg(args, char *);
+					if (str_s == NULL)
+						str_s = "(nil)";
+					printf("%s", str_s);
+					break;
+				default:
+					exist = 0;
+					break;
+			}
+			if (format[i] && exist)
+				printf(", ");
 		}
-		if (format[i] && exist)
-			printf(", ");
+		va_end(args);
 	}
-	va_end(args);
 	printf("\n");
 }
