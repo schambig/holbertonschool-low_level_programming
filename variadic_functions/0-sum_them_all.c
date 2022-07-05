@@ -2,7 +2,7 @@
 #include "variadic_functions.h"
 
 /**
- * sum_them_all - Sum parameters through a variadic function
+ * sum_them_all - Add parameters through a variadic function
  * @n: Number of the variadic arguments
  */
 int sum_them_all(const unsigned int n, ...)
