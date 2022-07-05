@@ -20,7 +20,7 @@ void print_all(const char * const format, ...)
 		while (format[i])
 		{
 			exist = 1;
-			switch (format[i++])
+			switch (format[i])
 			{
 				case 'c':
 					printf("%c", va_arg(args, int));
@@ -41,6 +41,7 @@ void print_all(const char * const format, ...)
 					exist = 0;
 					break;
 			}
+			i++;
 			if (format[i] && exist)
 				printf(", ");
 		}
