@@ -14,9 +14,10 @@ void free_list(list_t *head)
 	{
 		/* point to the same address than head */
 		current = head;
-		/* traverse the list until it is NULL  */
+		/* move to the next node  */
 		head = head->next;
 
+		/* free every str and node at a time */
 		free(current->str);
 		free(current);
 	}
