@@ -10,24 +10,42 @@
  */
 int binary_search(int *array, size_t size, int value)
 {
-	int i, left, right;
+	int mid, left, right;
 
+	/* check whether array exists or not */
 	if (!array)
 		return (-1);
+
+	/**
+	 * set the new limits of the splited array
+	 * iterate until left and right meat each other
+	 */
 	for (left = 0, right = (int)size - 1; right >= left;)
 	{
+		/* print the array being searched every time it changes */
 		printf("Searching in array: ");
-		for (i = left; i < right; i++)
-			printf("%d, ", array[i]);
-		printf("%d\n", array[i]);
+		for (mid = left; mid < right; mid++)
+			printf("%d, ", array[mid]);
+		printf("%d\n", array[mid]);
 
-		i = left + (right - left) / 2;
-		if (array[i] == value)
-			return (i);
-		if (array[i] > value)
-			right = i - 1;
+		/**
+		 * set the middle point of the array
+		 * another valid option: mid = (left + right) / 2;
+		 * but the option below does not cause overflow
+		 * explanation: https://bit.ly/3wzQp9i
+		 */
+		mid = left + (right - left) / 2;
+
+		/* check if value is present at mid */
+		if (array[mid] == value)
+			return (mid);
+		/* if value is smaller, ignore right half */
+		if (array[mid] > value)
+			right = mid - 1;
+		/* if value is greater, ignore left half */
 		else
-			left = i + 1;
+			left = mid + 1;
 	}
+	 /* the element is not in the array */
 	return (-1);
 }
