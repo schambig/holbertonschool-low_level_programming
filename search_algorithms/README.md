@@ -6,10 +6,11 @@
 </h1>
 
 <p align="center">
+    <a href=(#description)>Description</a>
     <a href="description">Description</a> •
     <a href="resources">Resources</a> •
     <a href="file_structure">File Structure</a> •
-    <a href="usage">Usage</a> •
+    <a href="usage">Usage</a>
 </p>
 
 ## Description
