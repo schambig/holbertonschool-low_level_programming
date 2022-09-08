@@ -2,7 +2,7 @@
 
 ![made-with-Markdown](https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg)
 ![GitHub last commit](https://img.shields.io/github/last-commit/schambig/holbertonschool-low_level_programming)
-[![C|C](https://img.shields.io/badge/Repo-357%20commits-orange.svg)](https://sourcerer.io/schambig)
+[![C|C](https://img.shields.io/badge/Repo-361%20commits-orange.svg)](https://sourcerer.io/schambig)
 
 # Holberton Low-level Programming
 
