@@ -1,7 +1,7 @@
 <img align='right' src='https://user-images.githubusercontent.com/5713670/87202985-820dcb80-c2b6-11ea-9f56-7ec461c497c3.gif' width='100'><!--schambig-->
 
 ![made-with-Markdown](https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg)
-![GitHub last commit](https://img.shields.io/github/last-commit/schambig/holbertonschool-binary_trees)
+![GitHub last commit](https://img.shields.io/github/last-commit/schambig/holbertonschool-low_level_programming)
 [![C|C](https://img.shields.io/badge/Repo-357%20commits-orange.svg)](https://sourcerer.io/schambig)
 
 # Holberton Low-level Programming
