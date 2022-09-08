@@ -1,4 +1,4 @@
-<img align='right' src='https://user-images.githubusercontent.com/5713670/87202985-820dcb80-c2b6-11ea-9f56-7ec461c497c3.gif' width='100'>
+<img align='right' src='https://user-images.githubusercontent.com/5713670/87202985-820dcb80-c2b6-11ea-9f56-7ec461c497c3.gif' width='100'><!--schambig-->
 
 ![made-with-Markdown](https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg)
 ![GitHub last commit](https://img.shields.io/github/last-commit/schambig/holbertonschool-binary_trees)
@@ -35,7 +35,7 @@ Please follow the next directory order:
 | Project Directory | Summary |
 | --- | --- |
 | <pre>[hello_world](hello_world)</pre> | First steps with C language, brief history of C, what is gcc and how to use it, what is an entry point, how to print text using printf, puts, and putchar, how to get the size of a specific type using the unary operator sizeof, and more.  |
-| <pre>[variables_if_else_while](variables_if_else_while)</pre> |  |
+| <pre>[variables_if_else_while](variables_if_else_while)</pre> | Getting to know C operators (arithmetic, logical, relational, boolean, etc.). First steps with data types, conditional statements, and loops. Using `printf` function, and working with ASCCI characters. |
 | <pre>[functions_nested_loops](functions_nested_loops)</pre> |  |
 | <pre>[debugging](debugging)</pre> |  |
 | <pre>[more_functions_nested_loops](more_functions_nested_loops)</pre> |  |
