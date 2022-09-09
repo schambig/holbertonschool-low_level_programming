@@ -1,18 +1,18 @@
-<img align='right' src='https://user-images.githubusercontent.com/5713670/87202985-820dcb80-c2b6-11ea-9f56-7ec461c497c3.gif' width='100'><!--schambig-->
+<img align='right' src='https://user-images.githubusercontent.com/5713670/87202985-820dcb80-c2b6-11ea-9f56-7ec461c497c3.gif' width='100'><!--@schambig-->
 
-![made-with-Markdown](https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg)<!--schambig-->
-![GitHub last commit](https://img.shields.io/github/last-commit/schambig/holbertonschool-low_level_programming)<!--schambig-->
-[![C|C](https://img.shields.io/badge/Repo-361%20commits-orange.svg)](https://sourcerer.io/schambig)<!--schambig-->
+![made-with-Markdown](https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg)<!--@schambig-->
+![GitHub last commit](https://img.shields.io/github/last-commit/schambig/holbertonschool-low_level_programming)<!--@schambig-->
+[![C|C](https://img.shields.io/badge/Repo-363%20commits-orange.svg)](https://sourcerer.io/schambig)<!--@schambig-->
 
-# Holberton Low-level Programming<!--schambig-->
+# Holberton Low-level Programming<!--@schambig-->
 
-[Description](#description)</a> • [Projects](#projects)<!--schambig-->
+[Description](#description)</a> • [Projects](#projects)<!--@schambig-->
 
 ![C Programming](https://i.imgur.com/Ng28HSa.jpg)
 
 ---
 
-## Description<!--schambig-->
+## Description<!--@schambig-->
 
 C is an imperative, procedural programming language. It was initially developed by Dennis Ritchie between 1969 and 1973. It was mainly developed as a system programming language to write operating system. The main features of C language include low-level access to memory, simple set of keywords, and clean style, these features make C language suitable for system programming like operating system or compiler development.
 
@@ -26,7 +26,7 @@ But why learn C?, here are **some** of the important advantages of learning C pr
 
 This repository contains projects developed using C language.
 
-## Projects<!--schambig-->
+## Projects<!--@schambig-->
 
 This table contains all the projects of this repository, click on a project name to be redirected to the project.
 
@@ -34,13 +34,13 @@ Please follow the next directory order:
 
 | Project Directory | Summary |
 | --- | --- |
-| <pre>[hello_world](hello_world)</pre><!--schambig--> | First steps with C language, brief history of C, what is gcc and how to use it, what is an entry point, how to print text using printf, puts, and putchar, how to get the size of a specific type using the unary operator sizeof, and more.  |
-| <pre>[variables_if_else_while](variables_if_else_while)</pre><!--schambig--> | Getting to know C operators (arithmetic, logical, relational, boolean, etc.). First steps with data types, conditional statements, and loops. Using `printf` function, and working with ASCCI characters. |
-| <pre>[functions_nested_loops](functions_nested_loops)</pre><!--schambig--> |  |
-| <pre>[debugging](debugging)</pre><!--schambig--> |  |
-| <pre>[more_functions_nested_loops](more_functions_nested_loops)</pre><!--schambig--> |  |
-| <pre>[pointers_arrays_strings](pointers_arrays_strings)</pre><!--schambig--> |  |
-| <pre>[recursion](recursion)</pre><!--schambig--> |  |
+| <pre>[hello_world](hello_world)</pre><!--@schambig--> | First steps with C language, brief history of C, what is gcc and how to use it, what is an entry point, how to print text using printf, puts, and putchar, how to get the size of a specific type using the unary operator sizeof, and more.  |
+| <pre>[variables_if_else_while](variables_if_else_while)</pre><!--@schambig--> | Getting to know C operators (arithmetic, logical, relational, boolean, etc.). First steps with data types, conditional statements, and loops. Using `printf` function, and working with ASCCI characters. |
+| <pre>[functions_nested_loops](functions_nested_loops)</pre><!--@schambig--> | Working with nested loops, what is a function and how to use it, difference between a declaration and a definition of a function, what is a prototype, what is a header file and how to use it, and more. |
+| <pre>[debugging](debugging)</pre><!--@schambig--> |  |
+| <pre>[more_functions_nested_loops](more_functions_nested_loops)</pre><!--@schambig--> |  |
+| <pre>[pointers_arrays_strings](pointers_arrays_strings)</pre><!--@schambig--> |  |
+| <pre>[recursion](recursion)</pre><!--@schambig--> |  |
 | <pre>[static_libraries](static_libraries)</pre><!--@schambig--> |  |
 | <pre>[argc_argv](argc_argv)</pre><!--@schambig--> |  |
 | <pre>[malloc_free](malloc_free)</pre><!--@schambig--> |  |
