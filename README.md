@@ -2,7 +2,7 @@
 
 ![made-with-Markdown](https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg)<!--@schambig-->
 ![GitHub last commit](https://img.shields.io/github/last-commit/schambig/holbertonschool-low_level_programming)<!--@schambig-->
-[![C|C](https://img.shields.io/badge/Repo-363%20commits-orange.svg)](https://sourcerer.io/schambig)<!--@schambig-->
+[![C|C](https://img.shields.io/badge/Repo-364%20commits-orange.svg)](https://sourcerer.io/schambig)<!--@schambig-->
 
 # Holberton Low-level Programming<!--@schambig-->
 
@@ -37,7 +37,7 @@ Please follow the next directory order:
 | <pre>[hello_world](hello_world)</pre><!--@schambig--> | First steps with C language, brief history of C, what is gcc and how to use it, what is an entry point, how to print text using printf, puts, and putchar, how to get the size of a specific type using the unary operator sizeof, and more.  |
 | <pre>[variables_if_else_while](variables_if_else_while)</pre><!--@schambig--> | Getting to know C operators (arithmetic, logical, relational, boolean, etc.). First steps with data types, conditional statements, and loops. Using `printf` function, and working with ASCCI characters. |
 | <pre>[functions_nested_loops](functions_nested_loops)</pre><!--@schambig--> | Working with nested loops, what is a function and how to use it, difference between a declaration and a definition of a function, what is a prototype, what is a header file and how to use it, and more. |
-| <pre>[debugging](debugging)</pre><!--@schambig--> |  |
+| <pre>[debugging](debugging)</pre><!--@schambig--> | Debugging is the process of finding and fixing errors in software that prevents it from running correctly, what are some methods of debugging manually, how to read the error messages, and more. |
 | <pre>[more_functions_nested_loops](more_functions_nested_loops)</pre><!--@schambig--> |  |
 | <pre>[pointers_arrays_strings](pointers_arrays_strings)</pre><!--@schambig--> |  |
 | <pre>[recursion](recursion)</pre><!--@schambig--> |  |
