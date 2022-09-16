@@ -4,7 +4,7 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/schambig/holbertonschool-low_level_programming)<!--@schambig-->
 [![C|C](https://img.shields.io/badge/Repo-365%20commits-orange.svg)](https://sourcerer.io/schambig)<!--@schambig-->
 
-# Holberton Low-level Programming<!--@schambig-->
+# Low-level Programming<!--@schambig-->
 
 [Description](#description)</a> • [Projects](#projects)<!--@schambig-->
 
