@@ -2,7 +2,7 @@
 
 ![made-with-Markdown](https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg)<!--@schambig-->
 ![GitHub last commit](https://img.shields.io/github/last-commit/schambig/holbertonschool-low_level_programming)<!--@schambig-->
-[![C|C](https://img.shields.io/badge/Repo-364%20commits-orange.svg)](https://sourcerer.io/schambig)<!--@schambig-->
+[![C|C](https://img.shields.io/badge/Repo-365%20commits-orange.svg)](https://sourcerer.io/schambig)<!--@schambig-->
 
 # Holberton Low-level Programming<!--@schambig-->
 
@@ -38,7 +38,7 @@ Please follow the next directory order:
 | <pre>[variables_if_else_while](variables_if_else_while)</pre><!--@schambig--> | Getting to know C operators (arithmetic, logical, relational, boolean, etc.). First steps with data types, conditional statements, and loops. Using `printf` function, and working with ASCCI characters. |
 | <pre>[functions_nested_loops](functions_nested_loops)</pre><!--@schambig--> | Working with nested loops, what is a function and how to use it, difference between a declaration and a definition of a function, what is a prototype, what is a header file and how to use it, and more. |
 | <pre>[debugging](debugging)</pre><!--@schambig--> | Debugging is the process of finding and fixing errors in software that prevents it from running correctly, what are some methods of debugging manually, how to read the error messages, and more. |
-| <pre>[more_functions_nested_loops](more_functions_nested_loops)</pre><!--@schambig--> |  |
+| <pre>[more_functions_nested_loops](more_functions_nested_loops)</pre><!--@schambig--> | Working some more with nested loops, scope of variables, what are the `gcc` flags `-Wall` `-Werror` `-pedantic` `-Wextra` `-std=gnu89`, what are header files and how to to use them with `#include`, and more. |
 | <pre>[pointers_arrays_strings](pointers_arrays_strings)</pre><!--@schambig--> |  |
 | <pre>[recursion](recursion)</pre><!--@schambig--> |  |
 | <pre>[static_libraries](static_libraries)</pre><!--@schambig--> |  |
