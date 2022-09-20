@@ -40,7 +40,7 @@ Please follow the next directory order:
 | <pre>[debugging](debugging)</pre><!--@schambig--> | Debugging is the process of finding and fixing errors in software that prevents it from running correctly, what are some methods of debugging manually, how to read the error messages, and more. |
 | <pre>[more_functions_nested_loops](more_functions_nested_loops)</pre><!--@schambig--> | Working some more with nested loops, scope of variables, what are the `gcc` flags `-Wall` `-Werror` `-pedantic` `-Wextra` `-std=gnu89`, what are header files and how to to use them with `#include`, and more. |
 | <pre>[pointers_arrays_strings](pointers_arrays_strings)</pre><!--@schambig--> | What are pointers, arrays, strings and how to use them, what are the differences between pointers and arrays, scope of variables, and more. |
-| <pre>[recursion](recursion)</pre><!--@schambig--> |  |
+| <pre>[recursion](recursion)</pre><!--@schambig--> | What is recursion, how to implement recursion, in what situations you should implement recursion, in what situations you shouldn’t implement recursion, and more. |
 | <pre>[static_libraries](static_libraries)</pre><!--@schambig--> |  |
 | <pre>[argc_argv](argc_argv)</pre><!--@schambig--> |  |
 | <pre>[malloc_free](malloc_free)</pre><!--@schambig--> |  |
