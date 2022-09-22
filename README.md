@@ -2,7 +2,7 @@
 
 ![made-with-Markdown](https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg)<!--@schambig-->
 ![GitHub last commit](https://img.shields.io/github/last-commit/schambig/holbertonschool-low_level_programming)<!--@schambig-->
-[![C|C](https://img.shields.io/badge/Repo-371%20commits-orange.svg)](https://sourcerer.io/schambig)<!--@schambig-->
+[![C|C](https://img.shields.io/badge/Repo-372%20commits-orange.svg)](https://sourcerer.io/schambig)<!--@schambig-->
 
 # Low-level Programming<!--@schambig-->
 
@@ -42,7 +42,7 @@ Please follow the next directory order:
 | <pre>[pointers_arrays_strings](pointers_arrays_strings)</pre><!--@schambig--> | What are pointers, arrays, strings and how to use them, what are the differences between pointers and arrays, scope of variables, and more. |
 | <pre>[recursion](recursion)</pre><!--@schambig--> | What is recursion, how to implement recursion, in what situations you should implement recursion, in what situations you shouldn’t implement recursion, and more. |
 | <pre>[static_libraries](static_libraries)</pre><!--@schambig--> | What is a static library, how does it work, how to create one, and how to use it, Basic usage of `ar`, `ranlib`, `nm`, and more. |
-| <pre>[argc_argv](argc_argv)</pre><!--@schambig--> |  |
+| <pre>[argc_argv](argc_argv)</pre><!--@schambig--> | How to use arguments passed to your program, what are two prototypes of `main` that you know of, and in which case do you use one or the other, how to use `__attribute__((unused))` or `(void)` to compile functions with unused variables or parameters, and more. |
 | <pre>[malloc_free](malloc_free)</pre><!--@schambig--> |  |
 | <pre>[more_malloc_free](more_malloc_free)</pre><!--@schambig--> |  |
 | <pre>[preprocessor](preprocessor)</pre><!--@schambig--> |  |
