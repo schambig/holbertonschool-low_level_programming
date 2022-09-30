@@ -2,7 +2,7 @@
 
 ![made-with-Markdown](https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg)<!--@schambig-->
 ![GitHub last commit](https://img.shields.io/github/last-commit/schambig/holbertonschool-low_level_programming)<!--@schambig-->
-[![C|C](https://img.shields.io/badge/Repo-376%20commits-orange.svg)](https://sourcerer.io/schambig)<!--@schambig-->
+[![C|C](https://img.shields.io/badge/Repo-377%20commits-orange.svg)](https://sourcerer.io/schambig)<!--@schambig-->
 
 # Low-level Programming<!--@schambig-->
 
@@ -45,8 +45,8 @@ Please follow the next directory order:
 | <pre>[argc_argv](argc_argv)</pre><!--@schambig--> | How to use arguments passed to your program, what are two prototypes of `main` that you know of, and in which case do you use one or the other, how to use `__attribute__((unused))` or `(void)` to compile functions with unused variables or parameters, and more. |
 | <pre>[malloc_free](malloc_free)</pre><!--@schambig--> | What is the difference between automatic and dynamic allocation, what is `malloc` and `free` and how to use them, Why and when use `malloc`, how to use `valgrind` to check for memory leak, and more. |
 | <pre>[more_malloc_free](more_malloc_free)</pre><!--@schambig--> | How to use the `exit` function, what are the functions `calloc` and `realloc` from the standard library and how to use them, and more. |
-| <pre>[preprocessor](preprocessor)</pre><!--@schambig--> |  |
-| <pre>[structures_typedef](structures_typedef)</pre><!--@schambig--> |  |
+| <pre>[preprocessor](preprocessor)</pre><!--@schambig--> | What are macros and how to use them, what are the most common predefined macros, how to include guard your header files, and more. |
+| <pre>[structures_typedef](structures_typedef)</pre><!--@schambig--> | What are structures, when, why and how to use them, How to use `typedef`, and more. |
 | <pre>[function_pointers](function_pointers)</pre><!--@schambig--> |  |
 | <pre>[variadic_functions](variadic_functions)</pre><!--@schambig--> |  |
 | <pre>[makefiles](makefiles)</pre><!--@schambig--> |  |
