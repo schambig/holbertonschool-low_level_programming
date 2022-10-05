@@ -49,7 +49,7 @@ Please follow the next directory order:
 | <pre>[structures_typedef](structures_typedef)</pre><!--@schambig--> | What are structures, when, why and how to use them, How to use `typedef`, and more. |
 | <pre>[function_pointers](function_pointers)</pre><!--@schambig--> | What are function pointers and how to use them, what does a function pointer exactly hold, where does a function pointer point to in the virtual memory, and more. |
 | <pre>[variadic_functions](variadic_functions)</pre><!--@schambig--> | What are variadic functions, how to use `va_start`, `va_arg` and `va_end` macros, why and how to use the `const` type qualifier, and more. |
-| <pre>[makefiles](makefiles)</pre><!--@schambig--> |  |
+| <pre>[makefiles](makefiles)</pre><!--@schambig--> | What are `make` and makefiles, when, why and how to use makefiles, what are rules and how to set and use them, what are the most common / useful rules, what are variables and how to set and use them, and more. |
 | <pre>[singly_linked_lists](singly_linked_lists)</pre><!--@schambig--> |  |
 | <pre>[more_singly_linked_lists](more_singly_linked_lists)</pre><!--@schambig--> |  |
 | <pre>[bit_manipulation](bit_manipulation)</pre><!--@schambig--> |  |
