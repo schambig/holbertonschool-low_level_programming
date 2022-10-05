@@ -2,7 +2,7 @@
 
 ![made-with-Markdown](https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg)<!--@schambig-->
 ![GitHub last commit](https://img.shields.io/github/last-commit/schambig/holbertonschool-low_level_programming)<!--@schambig-->
-[![C|C](https://img.shields.io/badge/Repo-379%20commits-orange.svg)](https://sourcerer.io/schambig)<!--@schambig-->
+[![C|C](https://img.shields.io/badge/Repo-381%20commits-orange.svg)](https://sourcerer.io/schambig)<!--@schambig-->
 
 # Low-level Programming<!--@schambig-->
 
@@ -50,7 +50,7 @@ Please follow the next directory order:
 | <pre>[function_pointers](function_pointers)</pre><!--@schambig--> | What are function pointers and how to use them, what does a function pointer exactly hold, where does a function pointer point to in the virtual memory, and more. |
 | <pre>[variadic_functions](variadic_functions)</pre><!--@schambig--> | What are variadic functions, how to use `va_start`, `va_arg` and `va_end` macros, why and how to use the `const` type qualifier, and more. |
 | <pre>[makefiles](makefiles)</pre><!--@schambig--> | What are `make` and makefiles, when, why and how to use makefiles, what are rules and how to set and use them, what are the most common / useful rules, what are variables and how to set and use them, and more. |
-| <pre>[singly_linked_lists](singly_linked_lists)</pre><!--@schambig--> |  |
+| <pre>[singly_linked_lists](singly_linked_lists)</pre><!--@schambig--> | When and why using linked lists vs arrays, how to build and use linked lists, and more. |
 | <pre>[more_singly_linked_lists](more_singly_linked_lists)</pre><!--@schambig--> |  |
 | <pre>[bit_manipulation](bit_manipulation)</pre><!--@schambig--> |  |
 | <pre>[file_io](file_io)</pre><!--@schambig--> |  |
