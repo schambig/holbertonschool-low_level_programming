@@ -2,7 +2,7 @@
 
 ![made-with-Markdown](https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg)<!--@schambig-->
 ![GitHub last commit](https://img.shields.io/github/last-commit/schambig/holbertonschool-low_level_programming)<!--@schambig-->
-[![C|C](https://img.shields.io/badge/Repo-382%20commits-orange.svg)](https://sourcerer.io/schambig)<!--@schambig-->
+[![C|C](https://img.shields.io/badge/Repo-383%20commits-orange.svg)](https://sourcerer.io/schambig)<!--@schambig-->
 
 # Low-level Programming<!--@schambig-->
 
@@ -52,7 +52,7 @@ Please follow the next directory order:
 | <pre>[makefiles](makefiles)</pre><!--@schambig--> | What are `make` and makefiles, when, why and how to use makefiles, what are rules and how to set and use them, what are the most common / useful rules, what are variables and how to set and use them, and more. |
 | <pre>[singly_linked_lists](singly_linked_lists)</pre><!--@schambig--> | When and why using linked lists vs arrays, how to build and use linked lists, and more. |
 | <pre>[more_singly_linked_lists](more_singly_linked_lists)</pre><!--@schambig--> | How to use linked lists, insertion and deletion of nodes at the beginning, at the end or at a given position in a singly linked list, how to free memory in a singly linked list, and more. |
-| <pre>[bit_manipulation](bit_manipulation)</pre><!--@schambig--> |  |
+| <pre>[bit_manipulation](bit_manipulation)</pre><!--@schambig--> | How to manipulate bits and use bitwise operators, how to set values of bits at a given position/index, how to print the binary representation of a number usign bitwise operators, and more. |
 | <pre>[file_io](file_io)</pre><!--@schambig--> |  |
 | <pre>[doubly_linked_lists](doubly_linked_lists)</pre><!--@schambig--> |  |
 | <pre>[hash_tables](hash_tables)</pre><!--@schambig--> |  |
