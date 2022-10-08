@@ -55,7 +55,7 @@ Please follow the next directory order:
 | <pre>[bit_manipulation](bit_manipulation)</pre><!--@schambig--> | How to manipulate bits and use bitwise operators, how to set values of bits at a given position/index, how to print the binary representation of a number usign bitwise operators, and more. |
 | <pre>[file_io](file_io)</pre><!--@schambig--> | How to create, open, close, read and write files, what are file descriptors, how to use the I/O system calls `open`, `close`, `read` and `write`, What are and how to use the flags `O_RDONLY`, `O_WRONLY`, `O_RDWR`, what is a system call, and more.  |
 | <pre>[doubly_linked_lists](doubly_linked_lists)</pre><!--@schambig--> | What is a doubly linked list, how to use doubly linked lists, add a node at the beginning, the end or at a given position of a doubly linked list, how to free a doubly linked list, and more. |
-| <pre>[hash_tables](hash_tables)</pre><!--@schambig--> |  |
+| <pre>[hash_tables](hash_tables)</pre><!--@schambig--> | Hola |
 | <pre>[search_algorithms](search_algorithms)</pre><!--@schambig--> |  |
 
 <p align="center">
