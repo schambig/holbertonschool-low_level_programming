@@ -2,7 +2,7 @@
 
 ![made-with-Markdown](https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg)<!--@schambig-->
 ![GitHub last commit](https://img.shields.io/github/last-commit/schambig/holbertonschool-low_level_programming)<!--@schambig-->
-[![C|C](https://img.shields.io/badge/Repo-385%20commits-orange.svg)](https://sourcerer.io/schambig)<!--@schambig-->
+[![C|C](https://img.shields.io/badge/Repo-389%20commits-orange.svg)](https://sourcerer.io/schambig)<!--@schambig-->
 
 # Low-level Programming<!--@schambig-->
 
@@ -56,7 +56,7 @@ Please follow the next directory order:
 | <pre>[file_io](file_io)</pre><!--@schambig--> | How to create, open, close, read and write files, what are file descriptors, how to use the I/O system calls `open`, `close`, `read` and `write`, What are and how to use the flags `O_RDONLY`, `O_WRONLY`, `O_RDWR`, what is a system call, and more.  |
 | <pre>[doubly_linked_lists](doubly_linked_lists)</pre><!--@schambig--> | What is a doubly linked list, how to use doubly linked lists, add a node at the beginning, the end or at a given position of a doubly linked list, how to free a doubly linked list, and more. |
 | <pre>[hash_tables](hash_tables)</pre><!--@schambig--> | What is a hash function, what is a hash table, how do they work and how to use them, what is a collision and what are the main ways of dealing with collisions in the context of a hash table, what are the most common use cases of hash tables, and more. |
-| <pre>[search_algorithms](search_algorithms)</pre><!--@schambig--> |  |
+| <pre>[search_algorithms](search_algorithms)</pre><!--@schambig--> | What are `Bubble sort`, `Insertion sort`, `Selection sort` and `Quick sort` sorting algorithms and how to use them, what is the Big O notation, and how to evaluate the time complexity of an algorithm, and more. |
 
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=60&section=footer"/>
