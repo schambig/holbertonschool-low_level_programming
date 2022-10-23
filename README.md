@@ -58,6 +58,8 @@ Please follow the next directory order:
 | <pre>[hash_tables](hash_tables)</pre><!--@schambig--> | What is a hash function, what is a hash table, how do they work and how to use them, what is a collision and what are the main ways of dealing with collisions in the context of a hash table, what are the most common use cases of hash tables, and more. |
 | <pre>[search_algorithms](search_algorithms)</pre><!--@schambig--> | What are `Bubble sort`, `Insertion sort`, `Selection sort` and `Quick sort` sorting algorithms and how to use them, what is the Big O notation, and how to evaluate the time complexity of an algorithm, and more. |
 
+[Back to top](#low-level-programming)<!--@schambig-->
+
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=60&section=footer"/>
 </p>
